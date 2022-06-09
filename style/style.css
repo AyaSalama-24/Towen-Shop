@@ -1,0 +1,236 @@
+span {
+    font-size: 14px;
+    color: red;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+}
+
+@media (max-height:50em) {
+    footer {
+        position: static;
+    }
+    header {
+        padding-top: 2.5em;
+    }
+}
+
+.footer-distributed {
+    background-color: #2d2a30;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 3.125em 3.125em 3.75em 3.125em;
+    margin-top: 5em;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+    width: 30%;
+}
+
+.footer-distributed h3 {
+    color: #ffffff;
+    font: normal 2.25em 'Cookie', cursive;
+    margin: 0;
+}
+
+.footer-distributed h3 span {
+    color: #e0ac1c;
+}
+
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+    color: #ffffff;
+    margin: 1.25em 0 0.75em;
+}
+
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+    color: #8f9296;
+    font-size: 0.875em;
+    font-weight: normal;
+    margin: 0;
+}
+
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+    width: 35%;
+}
+
+.footer-distributed .footer-center i {
+    background-color: #33383b;
+    color: #ffffff;
+    font-size: 1.5625em;
+    width: 2.375em;
+    height: 2.375em;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 2.625em;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+    color: rgb(85, 188, 85);
+    text-decoration: none;
+    ;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+    width: 30%;
+}
+
+.footer-distributed .footer-company-about {
+    line-height: 20px;
+    color: #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+    display: block;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+    margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+.footer-distributed .footer-icons a:hover {
+    background-color: #3F71EA;
+}
+
+.footer-links a:hover {
+    color: #3F71EA;
+}
+
+@media (max-width: 880px) {
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+}
+
+#btnFooter {
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    padding: 2px;
+    margin-left: 360px;
+    /*width: 30px;
+    height: 30px; */
+}
+
+.slidBtn {
+    margin-left: 550px;
+}
+
+#back_btn {
+    height: 40px;
+}
+
+#contact2 {
+    /* background-image: url(../img/im15.png); */
+    padding: 5% 0;
+    background-repeat: no-repeat;
+    background-color: rgb(3, 53, 3);
+    margin: 30px;
+}
+
+#contact2 #contacttext {
+    width: 70%;
+    margin-left: 80px;
+    margin-right: 50px;
+    padding-right: 50px;
+}
+
+#contacttext h1 {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+#contact2 div {
+    display: inline-block;
+}
+
+#contactbutton a {
+    text-decoration: none;
+    color: rgb(2, 90, 2);
+    /* background-color: #000; */
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 20px;
+    border-radius: 30px;
+}
