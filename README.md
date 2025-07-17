@@ -1,2 +1,2 @@
 # Towen-Shop
-Shop for clothes
+Java Script Project
